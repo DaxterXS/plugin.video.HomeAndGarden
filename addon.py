@@ -6,7 +6,7 @@ url = 'https://apid.sky.it/vdp/v1/getLivestream?id=2&jsonp=jsonP.queue.jsonP0_15
 res = requests.get(url)
 
 try:
-	streaming_url = 'https://' + re.findall('"streaming_url":"https{0,1}://(.*?)"', res.text)[0]
+	streaming_url = 'https://sbshdlu5-lh.akamaihd.net/i/sbshdl_7@106896/master.m3u8?hdnts=st=1584575040~exp=1584661440~acl=/i/*~hmac=408719d9932fa30c431509eb224d265c6fca2b4a1c5ef014c4ac8e67a183f024&mux_audio=true'
 	thumb_url = 'https://' + re.findall('"img":"https{0,1}://(.*?)"', res.text)[1]
 	listitem = xbmcgui.ListItem('Cielo TV')
 	listitem.setInfo('video', {'Title': 'Cielo TV'})
