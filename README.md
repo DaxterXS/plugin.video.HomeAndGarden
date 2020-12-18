@@ -1,6 +1,6 @@
 # Diretta Cielo Kodi plugin
 
-Kodi unofficial plugin to stream Cielo from the official website.
+Kodi unofficial plugin to stream HomeAndGarden from the official website.
 
 ## Installation
 
