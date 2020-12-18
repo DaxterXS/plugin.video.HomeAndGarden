@@ -9,14 +9,14 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="it">HomeAndGarden diretta</summary>
-    <description lang="it">Streaming  della diretta di HomeAndGarden</description>
+    <description lang="it">Streaming  della diretta di Cielo</description>
     <summary lang="en">HomeAndGarden Italy live</summary>
     <description lang="en">Live streaming of HomeAndGarden Italy</description>
     <language>it</language>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE, Version 3, 29 June 2007</license>
     <website>https://www.cielotv.it/streaming.html</website>
-    <source>https://github.com/DaxterXS/plugin.video.HomeAndGarden</source>
+    <source>https://github.com/DaxterXS/plugin.video.Cielo</source>
     <forum></forum>
     <website></website>
     <email></email>    
